@@ -30,8 +30,13 @@ a:hover{
     color:black;
 }
 
-.btn{
+.wide{
     width: 300px;
+    background-color: #0ed7f2;
+    font-weight: 700;
+}
+
+.color{
     background-color: #0ed7f2;
     font-weight: 700;
 }
@@ -47,4 +52,13 @@ a:hover{
 
 .btn-primary:hover {
     border-color: #0ed7f2;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    color:black;
 }
