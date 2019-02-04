@@ -21,6 +21,12 @@
     <div class="container mt-2">
         <div class="row">
             <div class="col-md-2"></div>
+            <div class="col-md-8 total">
+                <button class="btn btn-primary color" type="submit">Total : Rs. 20,456</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
             <div class="col-md-8 wrapper">
                 <button class="btn btn-primary color" type="submit">ADD EXPENSE</button>
                 <button class="btn btn-primary color" type="submit">LOG OUT</button>
@@ -29,11 +35,62 @@
         <div class="row mt-2">
             <div class="col-md-2"></div>
             <div class="col-md-8 wrapper">
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
+                <div class="container">
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 wrapper">
+                <div class="container">
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">From</div>
+                            </div>
+                            <input class="form-control" type="date" id="datepicker" placeholder="Pick Date">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">To</div>
+                            </div>
+                            <input class="form-control" type="date" id="datepicker" placeholder="Pick Date">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 wrapper">
+                <div class="container">
+                    <div class="card bg-light text-dark mb-1">
+                        <div class="card-body">
+                            <span>Home Rest : Rs. 20000</span>
+                            <span><i class="fas fa-edit mr-5"></i><i class="fas fa-trash-alt mr-3"></i></span>
+                        </div>
+                    </div>
+                    <div class="card bg-light text-dark mb-1">
+                        <div class="card-body">
+                            <span>Home Rest : Rs. 20000</span>
+                            <span><i class="fas fa-edit mr-5"></i><i class="fas fa-trash-alt mr-3"></i></span>
+                        </div>
+                    </div>
+                    <div class="card bg-light text-dark mb-1">
+                        <div class="card-body">
+                            <span>Home Rest : Rs. 20000</span>
+                            <span><i class="fas fa-edit mr-5"></i><i class="fas fa-trash-alt mr-3"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 

@@ -62,3 +62,19 @@ a:hover{
 .container{
     color:black;
 }
+
+.form-inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
